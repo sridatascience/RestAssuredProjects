@@ -92,6 +92,7 @@ public class CreateBookingPOST {
 		.then()
 			.log()
 			.all()
+			.assertThat()
 			.statusCode(200);
 			
 
